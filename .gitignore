@@ -1,0 +1,16 @@
+# Игнорировать всё в корне, кроме Интеграции 1с
+/*
+!.gitignore
+
+# Разрешить только папку Интеграции 1с
+!/Интеграции 1с
+!/Интеграции 1с/**
+
+# Cursor profiles (локальные данные)
+Cursor_Profile_1/
+Cursor_Profile_2/
+Cursor_Shared_Worktrees/
+
+# OS
+Thumbs.db
+.DS_Store
